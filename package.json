@@ -24,5 +24,10 @@
   "dependencies": {
     "react": "^18.0.0-alpha-5fa4d79b0-20211008",
     "react-dom": "^18.0.0-alpha-5fa4d79b0-20211008"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }

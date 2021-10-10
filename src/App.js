@@ -1,4 +1,4 @@
 import React from "react";
-const App = () => <div>Hello, Webpack!</div>;
+const App = () => <div>react 18 examples</div>;
 
 export default App;

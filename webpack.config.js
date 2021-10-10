@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   mode: "development",
   entry: "./src/index.js",
+  target: ["web", "es6"],
   output: {
     filename: "bundle.[hash].js",
   },
