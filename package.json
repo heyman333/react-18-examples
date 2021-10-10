@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack serve"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
