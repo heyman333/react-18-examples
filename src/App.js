@@ -1,4 +1,14 @@
 import React from "react";
-const App = () => <div>react 18 examples</div>;
+import { AutomaticBatching } from "./PageComponents";
+import { AutomaticBatching18 } from "./PageComponents";
+
+const App = () => {
+  return (
+    <>
+      <AutomaticBatching></AutomaticBatching>
+      <AutomaticBatching18></AutomaticBatching18>
+    </>
+  );
+};
 
 export default App;
